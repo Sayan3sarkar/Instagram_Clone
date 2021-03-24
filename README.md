@@ -1,70 +1,26 @@
 # Instagram Web UI clone with ReactJS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). This is a clone of the [Instagram Web UI](https://www.instagram.com). It implements User registration, User Login, and image posting functionality, similar to Instagram. <br />
+<p> **DISCLAIMER:** This app has nothing to do with original Instagram.This is purely for educational purposes.</p> 
 
-## Available Scripts
+## Deployment
 
-In the project directory, you can run:
+This app has been deloyed [here](https://instagram-clone-e4541.web.app/) with the help of **Firebase**
 
-### `npm start`
+## Steps to Implement the Instagram Embed
+The Instagram Embed has been done with the help of [react-instagram-embed](https://www.npmjs.com/package/react-instagram-embed). However, there's a catch. This package uses Facebook's [oEmbed API](https://developers.facebook.com/docs/instagram/oembed) to access the posts of facebook and instagram. Facebook doesn't allow public access to this API. To gain access, one must have the following:
+<ul>
+    <li>A [facebook developer's account](https://developers.facebook.com/)</li>
+    <li>A [Registered Facebook APP](https://developers.facebook.com/docs/development#register)</li>
+    <li>The [oEmbed product](https://developers.facebook.com/docs/instagram/oembed#oembed-product) added to the app</li>
+    <li>An [Access Token](https://developers.facebook.com/docs/instagram/oembed#access-tokens)</li>
+    <li>The Facebook App must be in [Live Mode](https://developers.facebook.com/docs/development#live-mode)</li>
+    <li>To Release a facebook app, one must provide a **Privacy Policy URL** and a **Data deletion callback/instruction URL**. Generally free privacy policy providers are available for this purpose and you can set both the above mentioned URL's to be the same</li>
+</ul> 
 
-Runs the app in the development mode.\
+### Scripts: `npm start`
+
+Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
