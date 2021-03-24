@@ -1,5 +1,7 @@
 # Instagram Web UI clone with ReactJS
 
+<img src="./public/images/LandingPage.png">
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). This is a clone of the [Instagram Web UI](https://www.instagram.com). It implements User registration, User Login, and image posting functionality, similar to Instagram. <br />
 <p> <strong>DISCLAIMER:</strong> This app has nothing to do with original Instagram.This is purely for educational purposes.</p> 
 
