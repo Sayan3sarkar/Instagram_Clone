@@ -1,0 +1,125 @@
+.post {
+    max-width: 600px;
+    background-color: white;
+    border: 1px solid lightgray;
+    margin-bottom: 45px;
+}
+
+.post__header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.post__header > h3, strong {
+    color: #2c2c2c;
+}
+
+.post__avatar {
+    margin-right: 10px;
+}
+
+.post__likes {
+    width: 100%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.post__likesItem {
+    margin-right: 15px;
+}
+
+.post__likesItem:hover {
+    color: #e41c47;
+    cursor: pointer;
+}
+
+.post__likesItemSave {
+    position: relative;
+    left: 70%;
+}
+
+.post__likesItemSave:hover {
+    color: #e41c47;
+    cursor: pointer;
+}
+
+.post__image {
+    width: 100%;
+    object-fit: contain;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.post__text {
+    font-weight: normal;
+    padding: 20px;
+}
+
+.post__comments {
+    /* padding: 10px; */
+    overflow-y: scroll;
+    max-height: 180px;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* Hide Scrollbar for Chrome, Safari and Opera */
+.post__comments::-webkit-scrollbar {
+    display: none;
+}
+
+.post__commentBox {
+    display: flex;
+    margin-top: 10px;
+}
+
+.post__input {
+    flex: 1;
+    border: none;
+    border-top: 1px solid lightgray;
+    padding: 10px;
+}
+
+.post__input:disabled {
+    cursor: not-allowed;
+}
+
+.post__button {
+    flex: 0;
+    color: #6082a3;
+    border: none;
+    border-top: 1px solid lightgray;
+    cursor: pointer;
+}
+
+.post__button:disabled {
+    cursor: not-allowed;
+}
+
+@media (max-width: 915px) {
+    .post__likesItemSave {
+        left: 60%;
+    }
+}
+
+@media (max-width: 794px) {
+    .post__likesItemSave {
+        left: 52%;
+    }
+}
+
+@media (max-width: 689px) {
+    .post__likesItemSave {
+        left: 65%;
+    }
+}
+
+@media (max-width: 515px) {
+    .post__likesItemSave {
+        left: 50%;
+    }
+}

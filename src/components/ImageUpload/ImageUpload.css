@@ -1,0 +1,44 @@
+.imageUpload {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 20px auto;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.imageUpload__top {
+    display: flex;
+    padding: 15px 25px;
+}
+
+.imageUpload__caption {
+    width: 75%;
+    margin: auto;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.imageUpload__caption:focus {
+    outline: none;
+}
+
+.imageUpload__caption::placeholder{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-align: center; */
+}
+
+.imageUpload__content {
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imageUpload__progress {
+    width: 100%;    
+}

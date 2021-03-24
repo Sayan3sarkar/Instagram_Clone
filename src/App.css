@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+}
+
+.app {
+  background-color: #fafafa;
+}
+
+.app__signUp {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.app__posts {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.app_postsRight {
+  margin-left: 20px;
+}
+
+.app__unAuthFooter {
+  width: 10%;
+  background: #e41c47;
+  color: #fafafa;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin: 15px auto auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* justify-content: space-between; */
+  padding: 15px;
+  cursor: pointer;
+}
+
+@media (max-width: 1150px) {
+  .app__unAuthFooter {
+    width: 15%;
+  }
+}
+
+@media (max-width: 770px) {
+  .app__unAuthFooter {
+    width: 20%;
+  }
+}
+
+@media (max-width: 689px) {
+  .app__instaEmbed {
+    display: none;
+  }
+}
+
+@media (max-width: 581px) {
+  .app__unAuthFooter {
+    width: 30%;
+  }
+}
+
+@media (max-width: 392px) {
+  .app__unAuthFooter {
+    width: 75%;
+  }
+}

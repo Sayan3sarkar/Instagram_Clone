@@ -1,0 +1,10 @@
+.modal__signUp {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.modal__headerImage {
+    object-fit: contain;
+    flex: 0;
+}
